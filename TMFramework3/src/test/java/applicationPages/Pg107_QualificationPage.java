@@ -264,7 +264,7 @@ public class Pg107_QualificationPage extends HRMBasePage
 	public void ClickLanguageSavebtn()
 	{
 		stepstatus=basepage.clickElement(Languagesavebutton);
-		reportEvent(stepstatus, "Able to click the save Languagesavebutton", "Unable to click the save Languagesavebutton",driver,true);
+		reportEvent(stepstatus, "Able to click the save Languagesavebutton", "Unable to click the save Languagesavebutton",driver);
 	}
 	////////////////////////////////////////Licence///////////////////////////////////////////////////
 	
