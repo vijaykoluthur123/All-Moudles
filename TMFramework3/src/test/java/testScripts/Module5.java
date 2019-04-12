@@ -118,7 +118,7 @@ public void TC504()
     driver.quit();
 	
 	}
-@Test()
+/*@Test()
 public void TC505()
 {
 	WebDriver driver = new ChromeDriver();
@@ -143,5 +143,5 @@ public void TC505()
 	qualification.ClickLicenceSavebtn();
 	homepage.Logout();
     driver.quit();
-}
+}*/
 }

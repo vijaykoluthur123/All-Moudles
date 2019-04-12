@@ -87,7 +87,7 @@ public class Pg107_QualificationPage extends HRMBasePage
 	public void ClickSavebtn()
 	{
 		stepstatus=basepage.clickElement(savebutton);
-		reportEvent(stepstatus, "Able to click the save button", "Unable to click the save button",driver,true);
+		reportEvent(stepstatus, "Able to click the save button", "Unable to click the save button",driver);
 	}
 	////////////////////////////////////////////////Skills//////////////////////////////////////////////////////
 	
@@ -96,7 +96,7 @@ public class Pg107_QualificationPage extends HRMBasePage
 	public void ClickSkillAdd()
 	{
 		stepstatus=clickElement(skillAdd);
-		reportEvent(stepstatus, "Able to add skills add", "Unable to add skills add", driver, true);
+		reportEvent(stepstatus, "Able to add skills add", "Unable to add skills add", driver);
 		
 	}
 	public WebElement SetSkills(String skills1)
@@ -128,7 +128,7 @@ public class Pg107_QualificationPage extends HRMBasePage
 	public void ClickSkillSavebtn()
 	{
 		stepstatus=basepage.clickElement(skillsavebutton);
-		reportEvent(stepstatus, "Able to click the save button", "Unable to click the save button",driver,true);
+		reportEvent(stepstatus, "Able to click the save button", "Unable to click the save button",driver);
 	}
 	///////////////////////////////////////////Education////////////////////////////////////////////////////////
 	
@@ -137,7 +137,7 @@ public class Pg107_QualificationPage extends HRMBasePage
 	public void ClicAddEducation()
 	{
 		stepstatus=clickElement(addEducat);
-		reportEvent(stepstatus, "Able to click on Education add", "Able to click on Education add", driver, true);
+		reportEvent(stepstatus, "Able to click on Education add", "Able to click on Education add", driver);
 	}
 	public WebElement SelectLevel(String level1)
 	{
@@ -146,7 +146,7 @@ public class Pg107_QualificationPage extends HRMBasePage
 	public void ClickSelectLevel(String level)
 	{
 		stepstatus=clickElement(SelectLevel(level));
-		reportEvent(stepstatus, "able to selec the level", "Unable to select the level", driver, true);
+		reportEvent(stepstatus, "able to selec the level", "Unable to select the level", driver);
 	}
 	@FindBy(how=How.XPATH,using="//input[@name='education[institute]']")
 	WebElement Institute;
@@ -210,7 +210,7 @@ public class Pg107_QualificationPage extends HRMBasePage
 	public void ClickEducationSavebtn()
 	{
 		stepstatus=basepage.clickElement(Educationsavebutton);
-		reportEvent(stepstatus, "Able to click the save Educationsavebutton", "Unable to click the save Educationsavebutton",driver,true);
+		reportEvent(stepstatus, "Able to click the save Educationsavebutton", "Unable to click the save Educationsavebutton",driver);
 	}
 	/////////////////////////////////Language/////////////////////////////////////////////////
 	
@@ -219,7 +219,7 @@ public class Pg107_QualificationPage extends HRMBasePage
 	public void ClicAddLanguage()
 	{
 		stepstatus=clickElement(addLanguage);
-		reportEvent(stepstatus, "Able to click on Language add", "Able to click on Language add", driver, true);
+		reportEvent(stepstatus, "Able to click on Language add", "Able to click on Language add", driver);
 	}
 	
 		public WebElement SelectLanguage(String selectnew)
@@ -230,7 +230,7 @@ public class Pg107_QualificationPage extends HRMBasePage
 	public void SetLanguage(String Language1)
 	{
 		stepstatus=clickElement(SelectLanguage(Language1));
-		reportEvent(stepstatus, "Able to select the language", "Unale to select the Language", driver, true);
+		reportEvent(stepstatus, "Able to select the language", "Unale to select the Language", driver);
 	}
 	public WebElement SelectFlunce(String selectFlun)
 	{
@@ -273,7 +273,7 @@ public class Pg107_QualificationPage extends HRMBasePage
 	public void ClicAddLicence()
 	{
 		stepstatus=clickElement(addLicence);
-		reportEvent(stepstatus, "Able to click on Language Licence", "unable to click on Licence", driver, true);
+		reportEvent(stepstatus, "Able to click on Language Licence", "unable to click on Licence", driver);
 	}
 	public WebElement SelectLicenceType(String LicenceType)
 	{
@@ -324,7 +324,7 @@ public class Pg107_QualificationPage extends HRMBasePage
 	public void ClickLicenceSavebtn()
 	{
 		stepstatus=basepage.clickElement(Licencesavebutton);
-		reportEvent(stepstatus, "Able to click the save Licencesavebutton", "Unable to click the save Licencesavebutton",driver,true);
+		reportEvent(stepstatus, "Able to click the save Licencesavebutton", "Unable to click the save Licencesavebutton",driver);
 	}
 	
 	

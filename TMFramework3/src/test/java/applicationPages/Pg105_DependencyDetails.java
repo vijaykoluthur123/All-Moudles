@@ -26,7 +26,7 @@ WebElement ClickAdd;
 public void ClickOnAdd()
 {
 	stepstatus=clickElement(ClickAdd);
-	reportEvent(stepstatus, "Able to click on Add button", "Unable to click on Add Button", driver,true);
+	reportEvent(stepstatus, "Able to click on Add button", "Unable to click on Add Button", driver);
 
 }
 
@@ -72,6 +72,6 @@ public void SetRelationship(String relations)
 	public void ClickOnSave()
 	{
 		stepstatus=clickElement(savebtn);
-		reportEvent(stepstatus, "Able to click on Save button", "Unablt to click on Save button", driver,true);
+		reportEvent(stepstatus, "Able to click on Save button", "Unablt to click on Save button", driver);
 	}
 }

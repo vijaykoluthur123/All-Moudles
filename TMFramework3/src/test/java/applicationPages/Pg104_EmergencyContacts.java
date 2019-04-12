@@ -81,7 +81,7 @@ public class Pg104_EmergencyContacts extends HRMBasePage
 	public void SelectCheckboxBasedOnName(String StrName)
 	{
 		stepstatus = basepage.clickElement(getCheckboxeBasedOnName(StrName));
-		reportEvent(stepstatus, "Able to select checkbox based on name", "Unable to select checkbox based on name",driver,true);
+		reportEvent(stepstatus, "Able to select checkbox based on name", "Unable to select checkbox based on name",driver);
 	}
 	
 	

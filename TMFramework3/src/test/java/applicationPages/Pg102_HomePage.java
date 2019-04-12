@@ -24,7 +24,7 @@ public class Pg102_HomePage extends HRMBasePage
 	public void clickOnMyInfo()
 	{
 		stepstatus = basepage.clickElement(MyInfo);
-		reportEvent(stepstatus, "Able to click On MyInfo", "UnAble to click On MyInfo", driver,true);
+		reportEvent(stepstatus, "Able to click On MyInfo", "UnAble to click On MyInfo", driver);
 	}
 	
 	@FindBy(how=How.XPATH,using="//a[text()='Contact Details']")
@@ -32,7 +32,7 @@ public class Pg102_HomePage extends HRMBasePage
 	public void clickOnContactDetails()
 	{
 		stepstatus = basepage.clickElement(ContactDetails);
-		reportEvent(stepstatus, "Able to click On ContactDetails", "UnAble to click On ContactDetails", driver,true);
+		reportEvent(stepstatus, "Able to click On ContactDetails", "UnAble to click On ContactDetails", driver);
 	}
 	
 	@FindBy(how=How.XPATH,using="//a[text()='Emergency Contacts']")
@@ -40,14 +40,14 @@ public class Pg102_HomePage extends HRMBasePage
 	public void clickOnEmergencyContacts()
 	{
 		stepstatus = basepage.clickElement(EmergencyContacts);
-		reportEvent(stepstatus, "Able to click on EmergencyContacts", "Unable to click on EmergencyContacts", driver,true);
+		reportEvent(stepstatus, "Able to click on EmergencyContacts", "Unable to click on EmergencyContacts", driver);
 	}
 	@FindBy(how=How.XPATH,using="//a[text()='Dependents']")
 	WebElement Depends;
 	public void ClickOnDependency()
 	{
 		stepstatus=clickElement(Depends);
-		reportEvent(stepstatus, "Able to click on Dependency", "Unable to click on Dependency", driver,true);
+		reportEvent(stepstatus, "Able to click on Dependency", "Unable to click on Dependency", driver);
 	}
 	
 	@FindBy(how=How.XPATH,using="//a[text()='Immigration']")
@@ -55,14 +55,14 @@ public class Pg102_HomePage extends HRMBasePage
 	public void ClickOnImmigration()
 	{
 		stepstatus=clickElement(Immigrationclick);
-		reportEvent(stepstatus, "Able to click on Immigration", "Unablt to click on Immigration", driver, true);
+		reportEvent(stepstatus, "Able to click on Immigration", "Unablt to click on Immigration", driver);
 	}
 	@FindBy(how=How.XPATH,using="//a[text()='Qualifications']")
 	WebElement Qualification;
 	public void ClickOnQualification()
 	{
 		stepstatus=basepage.clickElement(Qualification);
-		reportEvent(stepstatus, "Able to click on Qualification", "Unable to click on Qualification",driver,true);
+		reportEvent(stepstatus, "Able to click on Qualification", "Unable to click on Qualification",driver);
 	}
 	
 	

@@ -41,6 +41,6 @@ public class Pg101_LoginPage extends HRMBasePage
 	public void clickOnLogin()
 	{
 		stepstatus = basepage.clickElement(Singin);
-		reportEvent(stepstatus, "Able to click on Sign-In BUtton", "Unable to click on Sign-In Button",driver,true);
+		reportEvent(stepstatus, "Able to click on Sign-In BUtton", "Unable to click on Sign-In Button",driver);
 	}
 }

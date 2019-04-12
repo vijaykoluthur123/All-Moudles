@@ -6,7 +6,6 @@
       <class name="testScripts.Module5">
         <methods>
           <include name="aftersuite"/>
-          <include name="TC503"/>
           <include name="TC505"/>
           <include name="beforesuite"/>
           <include name="BeforeClass"/>

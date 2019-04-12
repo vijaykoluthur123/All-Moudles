@@ -130,6 +130,6 @@ public class Pg103_ContactDetailsPage extends HRMBasePage
 	public void clickOnSave()
 	{
 		stepstatus = basepage.clickElement(Save);
-		reportEvent(stepstatus, "Able to click On Save", "UnAble to click On Save", driver,true);
+		reportEvent(stepstatus, "Able to click On Save", "UnAble to click On Save", driver);
 	}
 }

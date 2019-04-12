@@ -26,7 +26,7 @@ WebElement addbtn;
  public void ClickAddBtn()
  {
 	 stepstatus=clickElement(addbtn);
-	 reportEvent(stepstatus, "Able to click on Add button", "Unablt to click on add Button", driver, true);
+	 reportEvent(stepstatus, "Able to click on Add button", "Unablt to click on add Button", driver);
  }
 	@FindBy(how=How.XPATH,using="//input[@id='immigration_type_flag_1']")
 	WebElement doctype;
@@ -115,21 +115,21 @@ WebElement issuedate;
      public void ClicksaveBtn()
      {
     	 stepstatus= clickElement(savebtn);
-    	 reportEvent(stepstatus, "Able to click the savebutton", "Unable to click the savebutton", driver, true);
+    	 reportEvent(stepstatus, "Able to click the savebutton", "Unable to click the savebutton", driver);
      }
      @FindBy(how=How.XPATH,using="(//input[@type='checkbox'])[position()=2]")
      WebElement check1;
      public void clickCheckbox()
      {
     	 stepstatus=clickElement(check1);
-    	 reportEvent(stepstatus, "Able to select the checkbox", "Unble to select the checkbox", driver,true);
+    	 reportEvent(stepstatus, "Able to select the checkbox", "Unble to select the checkbox", driver);
      }
      @FindBy(how=How.XPATH,using="//input[@id='btnDelete']")
      WebElement del;
      public void ClickDelete()
      {
     	 stepstatus=clickElement(del);
-    	 reportEvent(stepstatus, "Able to delete the checkbox", "Unble to delete the checkbox", driver,true);
+    	 reportEvent(stepstatus, "Able to delete the checkbox", "Unble to delete the checkbox", driver);
      }
      
 }
