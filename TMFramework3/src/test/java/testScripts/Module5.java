@@ -92,7 +92,7 @@ public void TC503()
 	qualification.ClickSkillSavebtn();
 	homepage.Logout();
     driver.quit();
-}*/
+}*///////// done changes///////////////
 @Test()
 public void TC504()
 {
