@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29572" started-at="2019-04-09T17:19:40Z" finished-at="2019-04-09T17:20:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29572" started-at="2019-04-09T17:19:40Z" finished-at="2019-04-09T17:20:10Z">
+      <class name="testScripts.Module5">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:testScripts.Module5@3ecd23d9]" name="beforesuite" is-config="true" duration-ms="237" started-at="2019-04-09T17:19:40Z" finished-at="2019-04-09T17:19:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:testScripts.Module5@3ecd23d9]" name="BeforeClass" is-config="true" duration-ms="0" started-at="2019-04-09T17:19:40Z" finished-at="2019-04-09T17:19:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:testScripts.Module5@3ecd23d9]" name="beforemethod" is-config="true" duration-ms="0" started-at="2019-04-09T17:19:40Z" finished-at="2019-04-09T17:19:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.Module5.TC505()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="TC505()[pri:0, instance:testScripts.Module5@3ecd23d9]" name="TC505" duration-ms="29531" started-at="2019-04-09T17:19:40Z" finished-at="2019-04-09T17:20:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC505 -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:testScripts.Module5@3ecd23d9]" name="AfterClass" is-config="true" duration-ms="0" started-at="2019-04-09T17:20:10Z" finished-at="2019-04-09T17:20:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testScripts.Module5@3ecd23d9]" name="aftermethod" is-config="true" duration-ms="0" started-at="2019-04-09T17:20:10Z" finished-at="2019-04-09T17:20:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC505 status=SUCCESS method=Module5.TC505()[pri:0, instance:testScripts.Module5@3ecd23d9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:testScripts.Module5@3ecd23d9]" name="aftersuite" is-config="true" duration-ms="5966" started-at="2019-04-09T17:20:10Z" finished-at="2019-04-09T17:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- testScripts.Module5 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
