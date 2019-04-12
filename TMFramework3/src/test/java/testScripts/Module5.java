@@ -70,7 +70,7 @@ public void TC502()
 	homepage.Logout();
    driver.quit();
 }
-@Test()
+/*@Test()
 public void TC503()
 {
 	WebDriver driver = new ChromeDriver();
@@ -92,7 +92,7 @@ public void TC503()
 	qualification.ClickSkillSavebtn();
 	homepage.Logout();
     driver.quit();
-}
+}*/
 @Test()
 public void TC504()
 {
