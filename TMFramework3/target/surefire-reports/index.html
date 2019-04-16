@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Module5" hash-for-method="TC505">TC505</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,47 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Module1" hash-for-method="TC101">TC101</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Module2" hash-for-method="TC201">TC201</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Module3" hash-for-method="TC301">TC301</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Module4" hash-for-method="TC401">TC401</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Module4" hash-for-method="TC402">TC402</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Module5" hash-for-method="TC501">TC501</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Module5" hash-for-method="TC502">TC502</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Module5" hash-for-method="TC503">TC503</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Module5" hash-for-method="TC504">TC504</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Module6_kotakInsurance" hash-for-method="TC601">TC601</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -171,148 +117,17 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testScripts.Module5</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC505">
-                  </a> <!-- TC505 -->
-                  <span class="method-name">TC505</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@name=&apos;license[code]&apos;]/option[text()=&apos;Driving License&apos;]&quot;}
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;IDEA-PC&apos;, ip: &apos;172.20.10.7&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\VIJAYK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50470}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: ff32cfc911e9494397660409b03ae245
-*** Element info: {Using=xpath, value=//select[@name=&apos;license[code]&apos;]/option[text()=&apos;Driving License&apos;]}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at applicationPages.Pg107_QualificationPage.SelectLicenceType(Pg107_QualificationPage.java:280)
-	at applicationPages.Pg107_QualificationPage.clickLicenceType(Pg107_QualificationPage.java:284)
-	at testScripts.Module5.TC505(Module5.java:137)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testScripts.Module5</span>
+              <span class="class-name">testScripts.Module6_kotakInsurance</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC501">
-                  </a> <!-- TC501 -->
-                  <span class="method-name">TC501</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC502">
-                  </a> <!-- TC502 -->
-                  <span class="method-name">TC502</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC503">
-                  </a> <!-- TC503 -->
-                  <span class="method-name">TC503</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC504">
-                  </a> <!-- TC504 -->
-                  <span class="method-name">TC504</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testScripts.Module3</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC301">
-                  </a> <!-- TC301 -->
-                  <span class="method-name">TC301</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testScripts.Module1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC101">
-                  </a> <!-- TC101 -->
-                  <span class="method-name">TC101</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testScripts.Module4</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC401">
-                  </a> <!-- TC401 -->
-                  <span class="method-name">TC401</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC402">
-                  </a> <!-- TC402 -->
-                  <span class="method-name">TC402</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testScripts.Module2</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC201">
-                  </a> <!-- TC201 -->
-                  <span class="method-name">TC201</span>
+                  <a name="TC601">
+                  </a> <!-- TC601 -->
+                  <span class="method-name">TC601</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -328,15 +143,8 @@ Session ID: ff32cfc911e9494397660409b03ae245
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
-    &lt;packages&gt;
-      &lt;package name=&quot;testScripts&quot;/&gt;
-    &lt;/packages&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testScripts.Module1&quot;/&gt;
-      &lt;class name=&quot;testScripts.Module2&quot;/&gt;
-      &lt;class name=&quot;testScripts.Module3&quot;/&gt;
-      &lt;class name=&quot;testScripts.Module4&quot;/&gt;
-      &lt;class name=&quot;testScripts.Module5&quot;/&gt;
+      &lt;class name=&quot;testScripts.Module6_kotakInsurance&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -350,7 +158,7 @@ Session ID: ff32cfc911e9494397660409b03ae245
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (5 classes)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -376,52 +184,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC101')
-data.setCell(0, 2, 'testScripts.Module1')
-data.setCell(0, 3, 38090);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TC501')
-data.setCell(1, 2, 'testScripts.Module5')
-data.setCell(1, 3, 31047);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TC503')
-data.setCell(2, 2, 'testScripts.Module5')
-data.setCell(2, 3, 28333);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TC502')
-data.setCell(3, 2, 'testScripts.Module5')
-data.setCell(3, 3, 28232);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'TC401')
-data.setCell(4, 2, 'testScripts.Module4')
-data.setCell(4, 3, 27791);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'TC301')
-data.setCell(5, 2, 'testScripts.Module3')
-data.setCell(5, 3, 27154);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'TC402')
-data.setCell(6, 2, 'testScripts.Module4')
-data.setCell(6, 3, 26269);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'TC504')
-data.setCell(7, 2, 'testScripts.Module5')
-data.setCell(7, 3, 24635);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'TC201')
-data.setCell(8, 2, 'testScripts.Module2')
-data.setCell(8, 3, 22864);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'TC505')
-data.setCell(9, 2, 'testScripts.Module5')
-data.setCell(9, 3, 22288);
+data.setCell(0, 1, 'TC601')
+data.setCell(0, 2, 'testScripts.Module6_kotakInsurance')
+data.setCell(0, 3, 34498);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -436,45 +208,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">8 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testScripts.Module5</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">aftersuite</span>
-                <br/>
-                <span class="ignored-method-name">beforesuite</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testScripts.Module3</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">aftersuite</span>
-                <br/>
-                <span class="ignored-method-name">beforesuite</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testScripts.Module4</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">aftersuite</span>
-                <br/>
-                <span class="ignored-method-name">beforesuite</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testScripts.Module2</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">aftersuite</span>
-                <br/>
-                <span class="ignored-method-name">beforesuite</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -483,191 +219,34 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testScripts.Module1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testScripts.Module6_kotakInsurance</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">beforesuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">BeforeClass</span>
-                <span class="method-start">387 ms</span>
+                <span class="method-start">234 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">beforemethod(public void testScripts.Module1.TC101())</span>
-                <span class="method-start">1476 ms</span>
+                <span class="method-name">beforemethod(public void testScripts.Module6_kotakInsurance.TC601() throws java.lang.InterruptedException,java.io...)</span>
+                <span class="method-start">250 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">TC101</span>
-                <span class="method-start">1534 ms</span>
+                <span class="method-name">TC601</span>
+                <span class="method-start">265 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">aftermethod([TestResult name=TC101 status=SUCCESS method=Module1.TC101()[pri:0, instance:testScripts.Module1@369...)</span>
-                <span class="method-start">39626 ms</span>
+                <span class="method-name">aftermethod([TestResult name=TC601 status=SUCCESS method=Module6_kotakInsurance.TC601()[pri:0, instance:testScri...)</span>
+                <span class="method-start">34763 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">AfterClass</span>
-                <span class="method-start">40036 ms</span>
+                <span class="method-start">34779 ms</span>
               </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testScripts.Module2</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">BeforeClass</span>
-                <span class="method-start">40038 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforemethod(public void testScripts.Module2.TC201())</span>
-                <span class="method-start">40057 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">TC201</span>
-                <span class="method-start">40103 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">aftermethod([TestResult name=TC201 status=SUCCESS method=Module2.TC201()[pri:0, instance:testScripts.Module2@1f2...)</span>
-                <span class="method-start">62968 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">AfterClass</span>
-                <span class="method-start">63055 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testScripts.Module3</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">BeforeClass</span>
-                <span class="method-start">63055 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforemethod(public void testScripts.Module3.TC301())</span>
-                <span class="method-start">63085 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">TC301</span>
-                <span class="method-start">63116 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">aftermethod([TestResult name=TC301 status=SUCCESS method=Module3.TC301()[pri:0, instance:testScripts.Module3@7d9...)</span>
-                <span class="method-start">90271 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">AfterClass</span>
-                <span class="method-start">90321 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testScripts.Module4</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">BeforeClass</span>
-                <span class="method-start">90321 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforemethod(public void testScripts.Module4.TC401())</span>
-                <span class="method-start">90323 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">TC401</span>
-                <span class="method-start">90323 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">aftermethod([TestResult name=TC401 status=SUCCESS method=Module4.TC401()[pri:0, instance:testScripts.Module4@779...)</span>
-                <span class="method-start">118115 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforemethod(public void testScripts.Module4.TC402())</span>
-                <span class="method-start">118117 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">TC402</span>
-                <span class="method-start">118118 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">aftermethod([TestResult name=TC402 status=SUCCESS method=Module4.TC402()[pri:0, instance:testScripts.Module4@779...)</span>
-                <span class="method-start">144388 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">AfterClass</span>
-                <span class="method-start">144389 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testScripts.Module5</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">BeforeClass</span>
-                <span class="method-start">144391 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforemethod(public void testScripts.Module5.TC501())</span>
-                <span class="method-start">144395 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">TC501</span>
-                <span class="method-start">144398 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">aftermethod([TestResult name=TC501 status=SUCCESS method=Module5.TC501()[pri:0, instance:testScripts.Module5@3a5...)</span>
-                <span class="method-start">175446 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforemethod(public void testScripts.Module5.TC502())</span>
-                <span class="method-start">175447 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">TC502</span>
-                <span class="method-start">175449 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">aftermethod([TestResult name=TC502 status=SUCCESS method=Module5.TC502()[pri:0, instance:testScripts.Module5@3a5...)</span>
-                <span class="method-start">203681 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforemethod(public void testScripts.Module5.TC503())</span>
-                <span class="method-start">203683 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">TC503</span>
-                <span class="method-start">203684 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">aftermethod([TestResult name=TC503 status=SUCCESS method=Module5.TC503()[pri:0, instance:testScripts.Module5@3a5...)</span>
-                <span class="method-start">232017 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforemethod(public void testScripts.Module5.TC504())</span>
-                <span class="method-start">232019 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">TC504</span>
-                <span class="method-start">232021 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">aftermethod([TestResult name=TC504 status=SUCCESS method=Module5.TC504()[pri:0, instance:testScripts.Module5@3a5...)</span>
-                <span class="method-start">256657 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforemethod(public void testScripts.Module5.TC505())</span>
-                <span class="method-start">256659 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">TC505</span>
-                <span class="method-start">256661 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">aftermethod([TestResult name=TC505 status=FAILURE method=Module5.TC505()[pri:0, instance:testScripts.Module5@3a5...)</span>
-                <span class="method-start">278964 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">AfterClass</span>
-                <span class="method-start">278964 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testScripts.Module1</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">aftersuite</span>
-                <span class="method-start">279016 ms</span>
+                <span class="method-start">34819 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
