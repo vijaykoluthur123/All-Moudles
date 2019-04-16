@@ -127,6 +127,7 @@ public String BenfitValue()
 	String st=driver.findElement(By.xpath("//span[@id='ContentPlaceHolder1_gv_coverdetails_lblTotal']")).getText();
 	return st;
 }
+//new one
 public void BenefiDisplay()
 {
 	System.out.println(BenfitValue());
